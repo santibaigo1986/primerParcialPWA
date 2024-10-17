@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+    <title>Capturar Foto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Capturar nueva foto</h1>
+        <button onclick="location.href='index.html'">Cancelar</button>
+    </header>
+
+    <main>
+        <div class="camera-container">
+            <img id="imgCamera" src="https://via.placeholder.com/300x300" alt="Vista previa de la imagen">
+            <input type="text" id="txtDescripcion" placeholder="Descripción de la imagen">
+            <div class="buttons">
+                <button id="btnCapturar">Capturar Foto</button>
+                <button id="btnPublicar" disabled>Publicar</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="camara.js"></script>
+</body>
+</html>
